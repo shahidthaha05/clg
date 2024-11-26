@@ -7,3 +7,11 @@ class course_form(forms.Form):
     email=forms.EmailField()
     message=forms.CharField()
     coursee=forms.CharField()
+
+class contact_form(forms.Form):
+    name=forms.CharField()
+    email=forms.EmailField()
+    message=forms.CharField()
+
+
+    

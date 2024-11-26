@@ -7,3 +7,9 @@ class Students(models.Model):
     email=models.EmailField()
     message=models.TextField()
     coursee=models.TextField()
+
+class Contact(models.Model):
+    name=models.TextField()
+    email=models.EmailField()
+    message=models.TextField()
+
